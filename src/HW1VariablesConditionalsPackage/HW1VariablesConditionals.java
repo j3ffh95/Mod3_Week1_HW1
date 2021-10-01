@@ -27,11 +27,46 @@ public class HW1VariablesConditionals {
 //	        Store a number between 1-7
 //	        If the number is 1, display a message "Monday", 2 for "Tuesday", 3 for "Wednesday" etc.
 //	        Anything other than 1-7 would default to "Invalid Input"
+		int numDay = 7;
+		switch(numDay) {
+		  case 1:
+		    System.out.println("Monday");
+		    break;
+		  case 2:
+			System.out.println("Tuesday");
+		    break;
+		  case 3:
+				System.out.println("Wednesday");
+			    break;
+		  case 4:
+				System.out.println("Thursday"); 
+			    break;
+		  case 5:
+				System.out.println("Friday");
+			    break;
+		  case 6:
+				System.out.println("Saturday");
+			    break;
+		  case 7:
+				System.out.println("Sunday");
+			    break;
+		  default:
+			System.out.println("Invalid Input");
+		}
+
 //	    Store a number in a variable called num and write an if statement: 
 //	        If num is odd, display "Cool"
 //	        If num is even and between 2-5, display "Not Cool"
 //	        If num is even and between 6-20, display "Cool"
 //	        If num is even and greater than 20, display "Not Cool
+		int num = 5;
+		if((num % 2 != 0) || (num % 2 == 0 || (num >= 6 && num <= 20))) {
+			System.out.println("Cool");
+		}
+		
+		if((num % 2 == 0 || num > 20) || (num % 2 == 0 || (num >= 2 && num <= 5))) {
+			System.out.println("Not Cool");
+		}
 
 
 	}
