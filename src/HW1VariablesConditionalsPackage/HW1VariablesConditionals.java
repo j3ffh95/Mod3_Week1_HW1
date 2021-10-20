@@ -51,7 +51,7 @@ public class HW1VariablesConditionals {
 				System.out.println("Sunday");
 			    break;
 		  default:
-			System.out.println("Invalid Input");
+			System.out.println("Sorry Invalid Input, enter a number from 1-7");
 		}
 
 //	    Store a number in a variable called num and write an if statement: 
