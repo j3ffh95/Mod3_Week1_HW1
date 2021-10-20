@@ -61,11 +61,11 @@ public class HW1VariablesConditionals {
 //	        If num is even and greater than 20, display "Not Cool
 		int num = 5;
 		if((num % 2 != 0) || (num % 2 == 0 || (num >= 6 && num <= 20))) {
-			System.out.println("Cool");
+			System.out.print("Cool");
 		}
 		
 		if((num % 2 == 0 || num > 20) || (num % 2 == 0 || (num >= 2 && num <= 5))) {
-			System.out.println("Not Cool");
+			System.out.print("Not Cool");
 		}
 
 
