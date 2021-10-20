@@ -11,7 +11,7 @@ public class HW1VariablesConditionals {
 //	        If students get 55 or above: console log D
 //	        Any grade lower than 55 is F
 		
-		int grade = 65;
+		int grade = 80;
 		if(grade >= 90) {
 			System.out.println("A");
 		} else if(grade >= 80) {
